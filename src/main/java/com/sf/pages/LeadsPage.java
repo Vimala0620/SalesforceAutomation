@@ -1,4 +1,4 @@
-package com.CF.pages;
+package com.sf.pages;
 
 public class LeadsPage {
 

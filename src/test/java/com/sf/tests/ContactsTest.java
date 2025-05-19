@@ -1,4 +1,4 @@
-package com.CF.tests;
+package com.sf.tests;
 
 public class ContactsTest {
 

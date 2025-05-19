@@ -1,4 +1,4 @@
-package com.CF.pages;
+package com.sf.pages;
 
 import java.time.Duration;
 
@@ -24,11 +24,7 @@ public class LaunchAppPage {
 
 	public PostRefreshAutomation selectSalesApp(String appName) throws InterruptedException {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(15));
-
-		/*
-		 * WebElement appLauncher = wait.until(ExpectedConditions.elementToBeClickable(
-		 * By.xpath("//div[@class='slds-r6']")));
-		 */
+        // Click on the App Launcher button
 		WebElement appLauncher = 
 				wait.until(ExpectedConditions.elementToBeClickable(launchAppButton));
 

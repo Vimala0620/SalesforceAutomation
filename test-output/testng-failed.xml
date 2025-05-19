@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.CF.tests.LoginTest">
+      <class name="com.CF.tests.AccountsTest">
         <methods>
-          <include name="verifyAccountNavigation"/>
           <include name="setUp"/>
+          <include name="verifyAccountCreation"/>
         </methods>
-      </class> <!-- com.CF.tests.LoginTest -->
+      </class> <!-- com.CF.tests.AccountsTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
